@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "EB Garamond", serif;
+}
+.title{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    font-size: 20px;
+}
+.title p{
+    color: grey;
+    font-size: 13px;
+}
+.container img{
+width: 150px;
+height: 250px;
+}
+.container{
+    text-align: center;
+    
+}
+.box1{
+    background-color: white;
+    display: inline-block;
+    border: solid 2px black;
+    margin-top: 10px;
+}
+.box2{
+    background-color: white;
+    display: inline-block;
+    border: solid 2px black;
+    margin-top: 10px;
+}
+.box3{
+    background-color: white;
+    display: inline-block;
+    border: solid 2px black;
+    margin-top: 10px;
+}
+.box4{
+    background-color: white;
+    display: inline-block;
+    border: solid 2px black;
+    margin-top: 10px;
+    padding: ;
+}
+
+.box1__title,.box2__title,.box3__title,.box4__title {
+    width: 150px;
+    height: 40px;
+    font-weight:bold;
+}
+
+.box1__desc,.box2__desc,.box3__desc,.box4__desc{
+    width: 150px;
+    height: 40px;
+}
+
+.box1__button,.box2__button,.box3__button,.box4__button{
+   margin-top: 20px;
+   padding: 5px;
+   background-color:black;
+   color: white;
+}
+
+.form{
+    background-color: black;
+    color:white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.form__table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+}
